@@ -4,7 +4,9 @@
   "description": "Deploying a REST API using Serverless, Express and Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "sls deploy",
+    "start": "serverless offline start"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,12 @@
   },
   "homepage": "https://github.com/cbroberg/serverless-express#readme",
   "dependencies": {
+    "aws-sdk": "^2.133.0",
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "serverless-http": "^1.5.1"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.16.0"
   }
 }
