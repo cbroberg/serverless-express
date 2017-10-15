@@ -1,0 +1,26 @@
+{
+  "name": "serverless-express",
+  "version": "0.1.0",
+  "description": "Deploying a REST API using Serverless, Express and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbroberg/serverless-express.git"
+  },
+  "keywords": [
+    "serverless",
+    "express",
+    "nodejs",
+    "microservices",
+    "microservice"
+  ],
+  "author": "Christian Broberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbroberg/serverless-express/issues"
+  },
+  "homepage": "https://github.com/cbroberg/serverless-express#readme"
+}
